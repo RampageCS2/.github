@@ -42,7 +42,7 @@
   <!-- Slogan (regular white, not muted) -->
   <text x="600" y="98" text-anchor="middle"
         font-family="'Roboto','Segoe UI',Arial,sans-serif"
-        font-size="20" font-weight="400" fill="#ffffff" opacity="0.90">Rampage projekte rasi visas žaidėjų pamėgtas sistemas ir daug naujų populiarų sistemų!</text>
+        font-size="20" font-weight="400" fill="#ffffff" opacity="0.90">Rampage.lt projekte rasi visas žaidėjų pamėgtas sistemas ir daug naujų populiarų sistemų!</text>
 
   <!-- Divider -->
   <rect x="120" y="120" width="960" height="1" fill="url(#line)" opacity="0.6"/>
@@ -53,7 +53,7 @@
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
       <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
       <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">SKINAI</text>
-      <text x="48" y="48" font-size="16" font-weight="400" fill="#ffffff" opacity="0.70" letter-spacing="0.3">Inventoriaus · Dėžių atidarinėjimas · Žaidėjų turgus · Mainų sistema</text>
+      <text x="48" y="48" font-size="16" font-weight="400" fill="#ffffff" opacity="0.70" letter-spacing="0.3">Inventorius · Dėžių atidarinėjimas · Žaidėjų turgus · Mainų sistema</text>
     </g>
     <g transform="translate(100, 210)">
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
