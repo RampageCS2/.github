@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 770" role="img" aria-label="Serveriai: Public, Mix, Retakes, AWP, Deagle, 1v1 Arenos, Surf GunXP, Public [Custom]. Turime visokiausių tipų serverių — nuobodu tikrai nebus!">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" role="img" aria-label="Serveriai: Public, Mix, Retakes, AWP, Deagle, 1v1 Arenos, Surf GunXP, Public [Custom], Zombie Swarm GunXP. Turime visokiausių tipų serverių — nuobodu tikrai nebus!">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0f1621"/>
@@ -16,16 +16,16 @@
   </defs>
 
   <!-- Card surface -->
-  <rect width="1200" height="770" rx="24" ry="24" fill="url(#bg)"/>
+  <rect width="1200" height="880" rx="24" ry="24" fill="url(#bg)"/>
 
   <!-- Ambient glows -->
-  <circle cx="180" cy="200" r="340" fill="url(#glowCyan)"/>
-  <circle cx="1020" cy="200" r="340" fill="url(#glowCyan)"/>
-  <circle cx="180" cy="540" r="340" fill="url(#glowCyan)"/>
-  <circle cx="1020" cy="540" r="340" fill="url(#glowCyan)"/>
+  <circle cx="180" cy="220" r="340" fill="url(#glowCyan)"/>
+  <circle cx="1020" cy="220" r="340" fill="url(#glowCyan)"/>
+  <circle cx="180" cy="660" r="340" fill="url(#glowCyan)"/>
+  <circle cx="1020" cy="660" r="340" fill="url(#glowCyan)"/>
 
   <!-- Subtle border -->
-  <rect x="0.5" y="0.5" width="1199" height="769" rx="24" ry="24"
+  <rect x="0.5" y="0.5" width="1199" height="879" rx="24" ry="24"
         fill="none" stroke="#0dcaf0" stroke-opacity="0.28" stroke-width="1"/>
 
   <!-- Top accent bar -->
@@ -44,96 +44,107 @@
   <!-- Divider under header -->
   <rect x="120" y="120" width="960" height="1" fill="url(#line)" opacity="0.6"/>
 
-  <!-- 8 pills, 4 per row. Pill 215×50, gap 20. Row width = 4·215 + 3·20 = 920. Start x = 140 -->
+  <!-- 9 pills, 3 per row. Pill 215×50, gap 20. Row width = 3·215 + 2·20 = 685. Start x = (1200-685)/2 = 257.5 -->
   <g font-family="'Roboto',Arial,sans-serif" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="2">
     <!-- Row 1 y=145 -->
-    <g transform="translate(140, 145)">
+    <g transform="translate(257.5, 145)">
       <rect width="215" height="50" rx="25" fill="#0dcaf0" fill-opacity="0.08" stroke="#0dcaf0" stroke-opacity="0.30"/>
       <text x="107.5" y="32" text-anchor="middle">PUBLIC</text>
     </g>
-    <g transform="translate(375, 145)">
+    <g transform="translate(492.5, 145)">
       <rect width="215" height="50" rx="25" fill="#0dcaf0" fill-opacity="0.08" stroke="#0dcaf0" stroke-opacity="0.30"/>
       <text x="107.5" y="32" text-anchor="middle">MIX</text>
     </g>
-    <g transform="translate(610, 145)">
+    <g transform="translate(727.5, 145)">
       <rect width="215" height="50" rx="25" fill="#0dcaf0" fill-opacity="0.08" stroke="#0dcaf0" stroke-opacity="0.30"/>
       <text x="107.5" y="32" text-anchor="middle">RETAKES</text>
     </g>
-    <g transform="translate(845, 145)">
+    <!-- Row 2 y=215 -->
+    <g transform="translate(257.5, 215)">
       <rect width="215" height="50" rx="25" fill="#0dcaf0" fill-opacity="0.08" stroke="#0dcaf0" stroke-opacity="0.30"/>
       <text x="107.5" y="32" text-anchor="middle">AWP</text>
     </g>
-    <!-- Row 2 y=215 -->
-    <g transform="translate(140, 215)">
+    <g transform="translate(492.5, 215)">
       <rect width="215" height="50" rx="25" fill="#0dcaf0" fill-opacity="0.08" stroke="#0dcaf0" stroke-opacity="0.30"/>
       <text x="107.5" y="32" text-anchor="middle">DEAGLE</text>
     </g>
-    <g transform="translate(375, 215)">
+    <g transform="translate(727.5, 215)">
       <rect width="215" height="50" rx="25" fill="#0dcaf0" fill-opacity="0.08" stroke="#0dcaf0" stroke-opacity="0.30"/>
       <text x="107.5" y="32" text-anchor="middle">1V1 ARENOS</text>
     </g>
-    <g transform="translate(610, 215)">
+    <!-- Row 3 y=285 -->
+    <g transform="translate(257.5, 285)">
       <rect width="215" height="50" rx="25" fill="#0dcaf0" fill-opacity="0.08" stroke="#0dcaf0" stroke-opacity="0.30"/>
       <text x="107.5" y="32" text-anchor="middle">SURF GUNXP</text>
     </g>
-    <g transform="translate(845, 215)">
+    <g transform="translate(492.5, 285)">
       <rect width="215" height="50" rx="25" fill="#0dcaf0" fill-opacity="0.08" stroke="#0dcaf0" stroke-opacity="0.30"/>
       <text x="107.5" y="32" text-anchor="middle">PUBLIC [CUSTOM]</text>
+    </g>
+    <g transform="translate(727.5, 285)">
+      <rect width="215" height="50" rx="25" fill="#0dcaf0" fill-opacity="0.08" stroke="#0dcaf0" stroke-opacity="0.30"/>
+      <text x="107.5" y="32" text-anchor="middle" letter-spacing="0.5">ZOMBIE SWARM GUNXP</text>
     </g>
   </g>
 
   <!-- Divider between pills and descriptions -->
-  <rect x="120" y="290" width="960" height="1" fill="url(#line)" opacity="0.6"/>
+  <rect x="120" y="360" width="960" height="1" fill="url(#line)" opacity="0.6"/>
 
   <!-- Descriptions section: single column at x=100, row spacing 55. -->
   <g font-family="'Roboto','Segoe UI',Arial,sans-serif">
-    <g transform="translate(100, 310)">
+    <g transform="translate(100, 380)">
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
       <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
       <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">Public</text>
       <text x="48" y="46" font-size="16" font-weight="400" fill="#ffffff" opacity="0.72" letter-spacing="0.3">Paprasta 16v16 masofkė — užsuk jei nori pasišaudyti bei paplepėti!</text>
     </g>
-    <g transform="translate(100, 365)">
+    <g transform="translate(100, 435)">
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
       <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
       <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">Mix</text>
       <text x="48" y="46" font-size="16" font-weight="400" fill="#ffffff" opacity="0.72" letter-spacing="0.3">Faceit stiliaus matchų sistema su kapitonais, komandų rinkimaisis bei knife raundais!</text>
     </g>
-    <g transform="translate(100, 420)">
+    <g transform="translate(100, 490)">
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
       <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
       <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">Retakes</text>
       <text x="48" y="46" font-size="16" font-weight="400" fill="#ffffff" opacity="0.72" letter-spacing="0.3">Apšilk prieš rimtus matchus!</text>
     </g>
-    <g transform="translate(100, 475)">
+    <g transform="translate(100, 545)">
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
       <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
       <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">AWP</text>
       <text x="48" y="46" font-size="16" font-weight="400" fill="#ffffff" opacity="0.72" letter-spacing="0.3">Klasika patapęs žaidimo režimas AWP mėgėjams!</text>
     </g>
-    <g transform="translate(100, 530)">
+    <g transform="translate(100, 600)">
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
       <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
       <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">Deagle</text>
       <text x="48" y="46" font-size="16" font-weight="400" fill="#ffffff" opacity="0.72" letter-spacing="0.3">Klasika patapęs žaidimo režimas Deaglo mėgėjams!</text>
     </g>
-    <g transform="translate(100, 585)">
+    <g transform="translate(100, 655)">
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
       <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
       <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">1v1 Arenos</text>
       <text x="48" y="46" font-size="16" font-weight="400" fill="#ffffff" opacity="0.72" letter-spacing="0.3">Patinka challenginti priešus į dvikovas? Užsuk ir įrodyk kad esi geresnis!</text>
     </g>
-    <g transform="translate(100, 640)">
+    <g transform="translate(100, 710)">
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
       <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
       <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">Surf GunXP</text>
       <text x="48" y="46" font-size="16" font-weight="400" fill="#ffffff" opacity="0.72" letter-spacing="0.3">Combat surf žemėlapiai su GunGame ginkų progresavimu — kaip CS1.6 laikais!</text>
     </g>
-    <g transform="translate(100, 695)">
+    <g transform="translate(100, 765)">
       <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
       <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
       <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">Public [Custom]</text>
       <text x="48" y="46" font-size="16" font-weight="400" fill="#ffffff" opacity="0.72" letter-spacing="0.3">Kiekvieną raundą visi gauna po super galią. Iš viso yra net 110 skirtingų galių!</text>
+    </g>
+    <g transform="translate(100, 820)">
+      <circle cx="16" cy="24" r="10" fill="#0dcaf0"/>
+      <circle cx="16" cy="24" r="17" fill="none" stroke="#0dcaf0" stroke-opacity="0.25"/>
+      <text x="48" y="22" font-size="24" font-weight="700" fill="#ffffff">Zombie Swarm GunXP</text>
+      <text x="48" y="46" font-size="16" font-weight="400" fill="#ffffff" opacity="0.72" letter-spacing="0.3">Klasikinis zombie swarmas su GunXP sistema, bei UL patobulinimais!</text>
     </g>
   </g>
 </svg>
